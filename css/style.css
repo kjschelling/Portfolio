@@ -483,7 +483,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-about,
 #fh5co-skills,
 #fh5co-contact,
-#fh5co-work,
+#fh5co-project,
 #fh5co-blog,
 #fh5co-counter,
 #fh5co-footer {
@@ -494,7 +494,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-about,
   #fh5co-skills,
   #fh5co-contact,
-  #fh5co-work,
+  #fh5co-project,
   #fh5co-blog,
   #fh5co-counter,
   #fh5co-footer {
@@ -625,7 +625,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 
-.work {
+.project {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -637,16 +637,16 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 30px;
 }
 @media screen and (max-width: 768px) {
-  .work {
+  .project {
     height: 400px;
   }
 }
 @media screen and (max-width: 480px) {
-  .work {
+  .project {
     height: 270px;
   }
 }
-.work .desc {
+.project .desc {
   display: table-cell;
   vertical-align: middle;
   height: 270px;
@@ -656,14 +656,14 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.work .desc h3 {
+.project .desc h3 {
   font-size: 14px;
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
   -webkit-transform: translate3d(0, -15px, 0);
   transform: translate3d(0, -15px, 0);
 }
-.work .desc span {
+.project .desc span {
   display: block;
   color: #999999;
   font-size: 12px;
@@ -673,27 +673,27 @@ h1, h2, h3, h4, h5, h6, figure {
   transform: translate3d(0, 15px, 0);
 }
 @media screen and (max-width: 768px) {
-  .work .desc {
+  .project .desc {
     opacity: 1;
     background: transparent !important;
   }
-  .work .desc h3 {
+  .project .desc h3 {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
-  .work .desc span {
+  .project .desc span {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 }
-.work:hover .desc {
+.project:hover .desc {
   opacity: 1;
 }
-.work:hover .desc h3 {
+.project:hover .desc h3 {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
-.work:hover .desc span {
+.project:hover .desc span {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
 }
