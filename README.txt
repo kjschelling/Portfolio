@@ -3,7 +3,8 @@ TITLE:
 Neat
 
 AUTHOR:
-DESIGNED & DEVELOPED by FreeHTML5.co
+Template DESIGNED & DEVELOPED by FreeHTML5.co
+CUSTOMIZED by KJ Schelling
 
 Website: http://freehtml5.co/
 Twitter: http://twitter.com/fh5co
