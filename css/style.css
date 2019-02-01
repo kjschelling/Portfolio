@@ -503,6 +503,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
+/* skills section */
+
 #skills-heading {
   padding-top: 70px;
 }
@@ -1528,6 +1530,13 @@ input[type="text"] {
 .img-portfolio-detail {
   margin-bottom: 20px;
   float: left;
+}
+
+
+/* projects section */
+
+.project-detail {
+  text-align: left;
 }
 
 .fh5co-project-detail .fh5co-project-title {
