@@ -504,9 +504,27 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 /* skills section */
+#first-row-skills {
+  padding-top: 70px;
+}
+
+#slider-container {
+  margin-bottom: 30px;
+}
+
+
+/* how to get skills to have a padding at every screen width */
+@media screen and (max-width: 8px) {
+  #skills-heading {
+    padding-top: 70px;
+  }
+}
 
 #skills-heading {
   padding-top: 70px;
+  margin: 0 auto;
+  width: 80%;
+  height: 50%;
 }
 
 .skills {
@@ -527,9 +545,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .skills-row {
-  padding-bottom: 10px;
+  padding-bottom: 70px;
 }
 
+#bottom-row-skills {
+  padding-bottom: 70px;
+}
 /* slide text styling*/
 
 .slideone {
@@ -549,6 +570,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .slidefour {
   font-family: 'Dosis', sans-serif;
+  color: white;
+}
+
+#slider-text-inner-four {
+  background-color: #40000000;
 }
 
 /* end slide text styling */
