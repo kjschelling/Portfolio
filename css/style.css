@@ -502,6 +502,12 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
+/* nav styling */
+#heading-name {
+  text-shadow: 2px 2px black;
+}
+
+
 
 /* skills section */
 #first-row-skills {
@@ -559,6 +565,9 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 40px;
 }
 
+.slideonetext {
+  color: white;
+}
 .slidetwo {
   font-family: 'Dosis', sans-serif;
   color: white;
@@ -566,6 +575,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .slidethree {
   font-family: 'Dosis', sans-serif;
+  color: white; 
 }
 
 .slidefour {
