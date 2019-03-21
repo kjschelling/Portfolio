@@ -105,8 +105,9 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .fh5co-nav .top-menu {
-  padding: 34px 30px;ff
+padding: 34px 30px;
 }
+
 @media screen and (max-width: 768px) {
   .fh5co-nav .top-menu {
     padding: 28px 1em;
