@@ -527,7 +527,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #skills-heading {
-  padding-top: 70px;
   margin: 0 auto;
   width: 80%;
   height: 50%;
@@ -575,7 +574,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .slidethree {
   font-family: 'Dosis', sans-serif;
-  color: white; 
+  color: white;
 }
 
 .slidefour {
