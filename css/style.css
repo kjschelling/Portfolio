@@ -11,11 +11,10 @@
 *
 * ======================================================= */
 body {
-  font-family: "Oxygen", sans-serif;
-  font-weight: 300;
-  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
   line-height: 1.7;
-  color: gray;
+  color: black;
   background: #e8e8e8;
 }
 
@@ -28,6 +27,11 @@ body {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+
+.project-title {
+ font-family: "Amatic SC", cursive !important;
+}
+
 .offcanvas #page {
   overflow: hidden;
   position: absolute;
@@ -64,7 +68,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -97,7 +101,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav {
-  margin: 5em 0 0 0;
+  margin: 1em 0 0 0;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -120,7 +124,7 @@ padding: 34px 30px;
   padding: 0;
   text-transform: uppercase;
   font-weight: 600;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 .fh5co-nav #fh5co-logo a span {
   color: #66D37E;
@@ -139,7 +143,7 @@ padding: 34px 30px;
   margin: 5px 0 0 0;
 }
 .fh5co-nav ul li {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -342,7 +346,7 @@ padding: 34px 30px;
 }
 
 #signKJ {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 24px;
 }
 
@@ -421,7 +425,7 @@ padding: 34px 30px;
   margin: 0;
   padding: 0;
   color: black;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h1 {
   margin-bottom: 20px;
@@ -508,6 +512,10 @@ padding: 34px 30px;
   text-shadow: 2px 2px black;
 }
 
+#header-name { 
+  font-family: 'Amatic SC', cursive !important;
+}
+
 
 
 /* skills section */
@@ -541,7 +549,7 @@ padding: 34px 30px;
 }
 .skills h3 {
   font-size: 13px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -557,31 +565,33 @@ padding: 34px 30px;
 #bottom-row-skills {
   padding-bottom: 70px;
 }
-/* slide text styling*/
 
-.slideone {
-  font-family: 'Dancing Script', cursive;
+
+/* slide styling*/
+.first-slide h1 span { 
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.slideone-span {
+  font-family: 'Amatic SC', cursive !important;
   font-weight: bold;
   font-size: 40px;
 }
 
-.slideonetext {
+.second-slide h1 span {
+  font-family: 'Josefin Sans', sans-serif;
   color: white;
-}
-.slidetwo {
-  font-family: 'Dosis', sans-serif;
-  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.slidethree {
-  font-family: 'Dosis', sans-serif;
+.third-slide h1 span {
+  font-family: 'Josefin Sans', sans-serif;
   color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.slidefour {
-  font-family: 'Dosis', sans-serif;
-  color: white;
-}
 
 #slider-text-inner-four {
   background-color: #40000000;
@@ -714,7 +724,7 @@ padding: 34px 30px;
   width: 100%;
   font-weight: 400;
   margin-bottom: .3em;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .fh5co-counters .fh5co-counter-label {
   font-size: 12px;
@@ -722,7 +732,7 @@ padding: 34px 30px;
   display: block;
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight: 600;
   color: gray;
 }
@@ -799,7 +809,7 @@ padding: 34px 30px;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 .fh5co-blog .blog-text h3 a {
   color: black;
@@ -875,7 +885,7 @@ padding: 34px 30px;
 }
 .blog-flex .featured-blog .desc-t h3 {
   font-weight: 700;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 30px;
   margin-bottom: 10px;
   line-height: 40px;
@@ -898,7 +908,7 @@ padding: 34px 30px;
   letter-spacing: 2px;
   font-weight: 600;
   font-size: 14px;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
   border: 1px solid red;
   padding: 10px 15px;
@@ -932,7 +942,7 @@ padding: 34px 30px;
 }
 .blog-flex .blog-entry .blog-post .desc h3 {
   font-weight: 300;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   line-height: 30px;
   margin-bottom: 10px;
@@ -1007,7 +1017,7 @@ input[type="text"] {
   margin-bottom: 30px;
 }
 .form-group .btn-modify {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
@@ -1052,7 +1062,7 @@ input[type="text"] {
   margin-bottom: 20px;
   line-height: 1.5;
   font-weight: 700;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
@@ -1355,7 +1365,7 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Oxygen", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 1px;
