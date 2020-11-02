@@ -516,9 +516,39 @@ padding: 34px 30px;
   font-family: 'Amatic SC', cursive !important;
 }
 
+/* ==========================================
+
+PROJECT SECTION
+
+========================================== */
 
 
-/* skills section */
+.project-row {
+ height: 370px;
+ width: 80%;
+ box-shadow: 10px 10px 5px grey;
+ margin: auto;
+ border: 1px black solid;
+ border-radius: 5px;
+}
+
+.project-desc {
+  width: 50%;
+  height: 100%;
+}
+
+.project-img {
+  width: 50%;
+  height: 100%;
+}
+
+
+
+/* ==========================================
+
+SKILLS SECTION
+
+========================================== */
 #first-row-skills {
   padding-top: 70px;
 }
