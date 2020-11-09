@@ -1,12 +1,14 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
+
+<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>KJ Schelling &mdash; Web Developer</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="KJ Schelling" content="KJ Schelling Web Developer" />
-	<meta name="keywords" content="web developer,los angeles,fashion, ecommerce,skincare,squarespace,wix,shopify,wordpress,Javascript,react,developer" />
+	<meta name="keywords"
+		content="web developer,los angeles,fashion, ecommerce,skincare,squarespace,wix,shopify,wordpress,Javascript,react,developer" />
 	<meta name="author" content="KJ Schelling" />
 
 	<!--
@@ -40,302 +42,404 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
+</head>
 
-<!-- nav bar section -->
+<body>
 
-	<div class="fh5co-loader"></div>
+	<!-- nav bar section -->
 
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container-wrap">
-			<div class="top-menu">
-				<div class="row">
-					<div class="col-sm-3">
-						<div id="fh5co-logo"><span id="header-name">the KJ code</span></a></div>
-					</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li class="has-dropdown">
-								<a href="#projects-section">Projects</a>
-								<ul class="dropdown">
-									<li><a href="dotdigitalphoto.com">Dot Digital Product Photography</a></li>
-									<li><a href="pamelacapone.com">Author Pamela Capone</a></li>
-									<li><a href="https://kjschelling.github.io/FullStackProject/">Modeling Agency</a></li>
-									<li><a href="https://kjschelling.github.io/kjschelling-capstone/">Skincare Ingredient App</a></li>
-								</ul>
-							</li>
-							<li><a href= "#skills-section">Skills</a></li>
-							<!-- <li><a href="#">About</a></li> -->
-							<li><a href="#contact-section">Contact</a></li>
-						</ul>
+		<nav class="fh5co-nav" role="navigation">
+			<div class="container-wrap" class="nav-container">
+				<div class="top-menu">
+					<div class="row">
+						<div class="col-xs-5">
+							<div id="fh5co-logo">
+								<h2 id="header-name">the KJ code     
+									<a href="#"><i class="icon-github"></i></a>
+									<a href="#"><i class="icon-linkedin"></i></a>
+								</h2>
+							</div>
+						</div>
+						<div class="col-xs-7 text-right menu-1">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li class="has-dropdown">
+									<a href="#project-section">Work</a>
+									<ul class="dropdown">
+										<li><a href="https://boiling-tor-87963.herokuapp.com/">Bartender App</a></li>
+										<li><a href="dotdigitalphoto.com">Dot Digital Product Photography</a></li>
+										<li><a href="pamelacapone.com">Author Pamela Capone</a></li>
+										<li><a href="https://kjschelling.github.io/FullStackProject/">Modeling
+												Agency</a></li>
+										<li><a href="https://kjschelling.github.io/kjschelling-capstone/">Skincare
+												Ingredient App</a></li>
+									</ul>
+								</li>
+								<li><a href="#skills-section">Skills</a></li>
+								<!-- <li><a href="#">About</a></li> -->
+								<li><a href="#contact-section">Contact</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
+			</div>
+		</nav>
 
+		<!-- end of nav bar section  -->
+
+		<!-- slider section  -->
+		<div class="container-wrap slider-container">
+			<div id="fh5co-hero">
+				<div class="flexslider">
+					<ul class="slides">
+
+						<!-- First Slide of Flex Slider-->
+
+						<li class="first-slide" style="background-image: url(images/KJSF.png);">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-pull-3 slider-text">
+										<div class="slider-text-inner inner-div id="intro-slide">
+											<h1><span>Hi, I'm KJ. I'm a freelance web developer specializing in <span
+														class='slideone-span'>fashion</span> and <span
+														class='slideone-span'>skincare</span> industies.</h1>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<!-- end of first slide -->
+
+						<!-- Second Slide of Flex Slider -->
+
+						<li class="second-slide" style="background-image: url(images/workstation.jpg)">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-push-3 slider-text">
+										<div class="slider-text-inner inner-div">
+											<h1> Skills ranging from working in Squarespace, Wix, to Wordpress & building full stack web applications.
+												 <br>
+												 Using HTML, CSS, Javascript, React, Node, my love for technology and a vision
+												can accomplish a beautiful, functional product.
+											</h1>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+
+						<!-- End of second slide -->
+
+
+						<!-- Third Slide of Flex Slider -->
+
+						<li class="third-slide" style="background-image: url(images/LAafternoon.jpg);">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-md-6 col-md-offset-3 col-md-push-3 slider-text">
+										<div class="slider-text-inner slider-text" id='slider-text-inner-four'>
+											<h1><span>Based in the Greater Los Angeles area
+												availbale for in-person and remote work.
+												</span></h1>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- End of third slide -->
+					</ul>
+				</div>
 			</div>
 		</div>
-	</nav>
-
-	<!-- end of nav bar section  -->
-
-	<!-- slider section  -->
-	<div class="container-wrap" id="slider-container">
-		<div id="fh5co-hero">
-			<div class="flexslider">
-				<ul class="slides">
-
-					<!-- First Slide of Flex Slider-->
-
-			   	<li class="first-slide"style="background-image: url(images/KJSF.png);">
-			   		<div class="overlay-gradient"></div>
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 slider-text">
-				   				<div class="slider-text-inner">
-				   					<h1><span>Hi, I'm KJ. I'm a web developer with a passion for <span class='slideone-span'>fashion</span> and <span class='slideone-span'>problem solving</span>.</span></h1>
-
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>
-
-					<!-- Second Slide of Flex Slider -->
-
-			   	<li class="second-slide" style="background-image: url(images/workstation.jpg)">
-			   		<div class="overlay-gradient"></div>
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-6 col-md-offset-3 col-md-push-3 slider-text">
-				   				<div class="slider-text-inner">
-									   <h1><span>Work with me through Zoom and Slack to bring your vision to life.
-										</span></h1>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>
-
-
-					<!-- Third Slide of Flex Slider -->
-
-					<li class="third-slide" style="background-image: url(images/LAafternoon.jpg);">
-			   		<div class="overlay-gradient"></div>
-			   		<div class="container-fluid">
-			   			<div class="row">
-				   			<div class="col-md-6 col-md-offset-3 col-md-push-3 slider-text">
-				   				<div class="slider-text-inner" id='slider-text-inner-four'>
-				   					<h1><span>I'm a freelance web developer based in Los Angeles specializing in 
-										   fashion and skincare industry.
-									   </span></h1>
-				   				</div>
-				   			</div>
-				   		</div>
-			   		</div>
-			   	</li>
-			  	</ul>
-		  	</div>
-		</div>
+	
 
 		<!-- end of slider section  -->
 
+
+		<!-- start of project section -->
 		
-<!-- start of project section -->
-<div class="project-container">
-    <div class="project-row">
-      <div >
-        <img class="project-img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fmacbook%2Fmacbook_PNG56.png&f=1&nofb=1" alt="macbook">
-      </div>
-      <div class="project-desc">
-      </div>
-    </div>
-    <br>
-    <div class="project-row">
-       <div>
-         <img class="project-img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fmacbook%2Fmacbook_PNG56.png&f=1&nofb=1" alt="macbook">
-      </div>
-      <div class="project-desc">
-      </div>
-    </div>
-    <br>
-    <div class="project-row">
-       <div >
-         <img class="project-img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fmacbook%2Fmacbook_PNG56.png&f=1&nofb=1" alt="macbook">
-      </div>
-      <div class="project-desc">
-      </div>
-    </div>
-    <br>
-    <div class="project-row">
-       <div>
-         <img class="project-img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fmacbook%2Fmacbook_PNG56.png&f=1&nofb=1" alt="macbook" >
-      <div class="project-desc">
-      </div>
-    </div>
-    <br>
-    <div class="project-row">
-       <div>
-         <img class="project-img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpngimg.com%2Fuploads%2Fmacbook%2Fmacbook_PNG56.png&f=1&nofb=1" alt="macbook" >
-      </div>
-      <div class="project-desc">
-        <ul>
-          <li></li>
-           <li></li>
-           <li></li>
-           <li></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-<!-- end of project section  -->
-
+		<div class="container-wrap" class="project-container">
+			<div class="project-row row animate-box">
+				<div class="col-xs-12 text-center fh5co-heading" id="work-title">
+					<h1 class="section-title"><a name="project-section">Work</a></h1>
+				</div>
+				<div class="project-img-col col-md-6">
+					<a href="https://www.dotdigitalphoto.com/" style="display: block;">
+					<img class="project-img"
+						src="images/imac/imacdotdig.jpg"
+						alt="macbook"></a>
+				</div>
+				<div class="project-desc-col text-center col-md-6">
+					<h3>Wix & Squarespace Development</h3>
+					<ul>
+						<li>Dot Digital Photography - Boutique Commercial Photography</li>
+						<li>Chic photography site redesigned using clients Wix Premium account</li>
+						<li>Working with client in person</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</a>
+		
+		
+		<div class="container-wrap" class="project-container">
+			<div class="project-row row animate-box">
+				<div class="project-img-col col-md-6">
+					<a href="https://pamelacapone.com" style="display: block;">
+					<img class="project-img"
+						src="images/imac/imacpamc.jpg"
+						alt="macbook"></a>
+				</div>
+				<div class="project-desc-col text-center col-md-6">
+					<h3>Wordpress</h3>
+					<ul>
+						<li>Recreated outdated Wordpress theme</li> 
+						<li>Child theme customization</li> 
+						<li>SEO Optmization</li>
+						<li>Plugin management</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	
-
-
-
-<!-- start of skills section -->
-<div id="fh5co-services">
-
-	<div class="row animate-box">
-		<div class="col-md-6 col-md-offset-3 text-center fh5co-heading" id="first-row-skills">
-			<h1 class="project-title"><a name="skills-section" >Skills</a></h1>
-		</div>
-	</div>
-	<div class="row skills-row">
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-
-				<span class="icon">
-					<i class="icon-html-five"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">HTML5</a></h3>
+	
+		<div class="container-wrap" class="project-container">
+			<div class="project-row row animate-box">
+				<div class="project-img-col col-md-6">
+					<a href="https://boiling-tor-87963.herokuapp.com/cocktails" 
+		style="display:block;">
+					<img class="project-img"
+						src="images/imac/imaccocktails.jpg"
+						alt="macbook"></a>
 				</div>
-			</div>
-
-		</div>
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-				<span class="icon">
-					<i class="icon-css3"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">CSS3</a></h3>
-
+				<div class="project-desc-col text-center col-md-6">
+					<h3>React.js</h3>
+					<ul>
+						<li>Quarantine Bartender Inspiration</li>
+						<li>Created with React.js</li>
+						<li>Fetches to a cocktail API displaying 10 Random Cocktails & a button to generate a single random cocktail</li>
+						<li>Final project for General Assembly's React Course</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-				<span class="icon">
-					<i class="icon-embed2"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">ES6</a></h3>
-
+	
+		<div class="container-wrap" class="project-container">
+			<div class="project-row row animate-box">
+				<div class="project-img-col col-md-6">
+					<a href="https://kjschelling.github.io/kjschelling-capstone/" 
+		style="display:block;">
+					<img class="project-img"
+						src="images/imac/imac beauty ing.jpg"
+						alt="macbook"></a>
 				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-				<!-- change services to skills -->
-				<span class="icon">
-					<i class="icon-embed2"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">AJAX</a></h3>
-
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-				<span class="icon">
-					<i class="icon-embed2"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">Jquery</a></h3>
-
-				</div>
-			</div>
-		</div>
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-				<span class="icon">
-					<i class="icon-git"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">Git &amp; Github</a></h3>
-
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="row" id="bottom-row-skills">
-		<div class="col-md-4 text-center animate-box">
-			<div class="skills">
-				<span class="icon">
-					<i class="icon-embed2"></i>
-				</span>
-				<div class="desc">
-					<h3><a href="#">Node.js</a></h3>
-
+				<div class="project-desc-col text-center col-md-6">
+					<h3>Web Apps</h3>
+					<ul>
+						<li>Beauty Ingredient Tracker</li>
+						<li>Signup, signin, signout & change password capabilites</li>
+						<li>Created as a tool to aid in my dream of creating a skincare line.</li>
+						<li>Signup, signin, signout & change password capabilites</li>
+						<li>Allows the user to sign in and add ingredients add relevent links & notes.</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 
-
+		<div class="container-wrap" class="project-container">
+			<div class="project-row row animate-box">
+				<div class="project-img-col col-md-6">
+					<a href="https://kjschelling.github.io/FullStackProject/" 
+		style="display:block;">
+					<img class="project-img"
+						src="images/imac/imacmodelagency.jpg"
+						alt="macbook"></a>
+				</div>
+				<div class="project-desc-col text-center col-md-6">
+					<h3>Full Stack Development</h3>
+					<ul>Modeling Agency App</li>
+						<li>Signup, signin, signout & change password capabilites</li>
+						<li>Allows user to Create, Read, Update and Delete "model"</li>
+						<li>Created using HTML, CSS, Sass, Javascrip,t jQuery, Ajax,
+							 Bootstrap & Handlebars.js</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</div>
 
-<!-- end of skills section -->
+		<!-- end of project section  -->
 
 
-<!-- contact section -->
-			<div class='container-wrap' style="margin-top: 20px;">
-				<div class="row">
-					<div class="col-md-12 text-center fh5co-heading">
-						<h1 class='project-title' style="padding-top:70px;"><a name="contact-section">Contact</a></h1>
+		<!-- start of skills section -->
+
+		<div class="container-wrap" id="fh5co-services" class="skills-container">
+
+			<div class="row animate-box">
+				<div class="col-lg-12 text-center fh5co-heading">
+					<h1 class="section-title"><a name="skills-section">Skills</a></h1>
+				</div>
+			</div>
+			<div class="row skills-row">
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+
+						<span class="icon">
+							<i class="icon-html-five"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">HTML5</a></h3>
+						</div>
 					</div>
+
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<span class="icon">
+							<i class="icon-css3"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">CSS3</a></h3>
+
+						</div>
 					</div>
-				<div class="row" style="padding-bottom: 20px;">
-					<div class="col-md-6 text-center resume">
-							<p id="contact-message">
-								<a href="mailto:kjschelling@gmail.com">kjschelling@gmail.com
-								</br>
-								</br>
-								</br>
-								<i class="icon-mail2" style="font-size:24px;"></i></a>
-							</p>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<span class="icon">
+							<i class="icon-embed2"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">ES6</a></h3>
+
+						</div>
 					</div>
-					<div class="col-md-6 text-center resume">
-							<p id='resume-message'>
-								Click the button below to download my resume!
+				</div>
+			</div>
+			<div class="row skills-row">
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<!-- change services to skills -->
+						<span class="icon">
+							<i class="icon-embed2"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">AJAX</a></h3>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<span class="icon">
+							<i class="icon-embed2"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Jquery</a></h3>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<span class="icon">
+							<i class="icon-git"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Git &amp; Github</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row skills-row" >
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<span class="icon">
+							<i class="icon-embed2"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">Node.js</a></h3>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 text-center animate-box">
+					<div class="skills">
+						<span class="icon">
+							<i class="icon-embed2"></i>
+						</span>
+						<div class="desc">
+							<h3><a href="#">React.js</a></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+
+			<div class="row animate-box">
+				<div class="col-xs-12 text-center fh5co-heading">
+					<h1 class="section-title">Certifications</h1>
+					<ul>
+						<li>Software Engineering Immersive Certificate: General Assembly</li>
+						<li>React.js Certificate: General Assembly</li>
+						<li>Response Web Design Certification: freeCodeCamp</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- end of skills section -->
+
+
+		<!-- contact section -->
+		<div class='container-wrap contact-container'>
+
+			<div class="row animate-box" >
+				<div class="col-lg-12 text-center fh5co-heading">
+					<h1 class="section-title"><a name="contact-section">Contact</a></h1>
+				</div>
+			</div>
+
+			<div class="row animate-box">
+				<div class="col-md-6 text-center resume">
+					<p id="contact-message">
+						<a href="mailto:kjschelling@gmail.com">kjschelling@gmail.com
 							</br>
-							<form method="get" action="https://docs.google.com/document/d/1EufOsaNZZj5Y3giMvGdQRg_j1d1ALAAvf0Urf_M1Wis/edit?usp=sharing" target="_blank">
-  		 						<button type="submit" class="resume-btn">Download!</button>
-							</form>
-					</div>
-					<div class="col-md-12 text-center"><p>
-						<small class="block"> Made with <i class="icon-heart2"> by </i> <span id=signKJ>KJ</span></small>
+							<i class="icon-mail2" style="font: size 45px;"></i></a>
+					</p>
+				</div>
+
+				<div class="col-md-6 text-center resume">
+					<p id='resume-message'>
+						Click the button below to download my resume!
+						</br>
+						<form method="get"
+							action="https://docs.google.com/document/d/1EufOsaNZZj5Y3giMvGdQRg_j1d1ALAAvf0Urf_M1Wis/edit?usp=sharing"
+							target="_blank">
+							<button type="submit" class="resume-btn">Download!</button>
+						</form>
+				</div>
+
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block"> Made with <i class="icon-heart2"> by </i> <span
+								id=signKJ> The KJ Code</span></small>
 					</p>
 					<p>Connect with me!
 						<ul class="fh5co-social-icons">
 							<li><a href="#"><i class="icon-github"></i></a></li>
 							<li><a href="#"><i class="icon-linkedin"></i></a></li>
 						</ul>
-					</p></div>
+					</p>
 				</div>
-				</div>
+			</div>
+		</div>
 
-<!-- end contact section -->
+		<!-- end contact section -->
+	</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>
@@ -359,5 +463,6 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
-	</body>
+</body>
+
 </html>
