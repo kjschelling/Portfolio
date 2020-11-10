@@ -595,9 +595,9 @@ SKILLS SECTION
 
 
 /* slide styling*/
-.first-slide h1 span { 
+.first-slide h1 { 
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  color: white !important;
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -607,22 +607,18 @@ SKILLS SECTION
   font-size: 40px;
 }
 
-.second-slide h1 span {
+.second-slide h1 {
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  color: white !important;
   text-shadow: 2px 2px 4px #000000;
 }
 
-.third-slide h1 span {
+.third-slide h1 {
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
+  color: white !important;
   text-shadow: 2px 2px 4px #000000;
 }
 
-
-#slider-text-inner-four {
-  background-color: #40000000;
-}
 
 /* end slide text styling */
 
