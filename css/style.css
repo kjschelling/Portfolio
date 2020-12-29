@@ -289,71 +289,6 @@ padding: 34px 30px;
   position: relative;
 }
 
-<<<<<<< HEAD
-.fh5co-video {
-  overflow: hidden;
-}
-@media screen and (max-width: 992px) {
-  .fh5co-video {
-    height: 450px;
-  }
-}
-.fh5co-video a {
-  z-index: 1001;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -45px;
-  margin-left: -45px;
-  width: 90px;
-  height: 90px;
-  display: table;
-  text-align: center;
-  background: #fff;
-  -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -ms-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -o-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75);
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-.fh5co-video a i {
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 40px;
-}
-.fh5co-video .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-.fh5co-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
-}
-.fh5co-video:hover a {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  -o-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
-#signKJ {
-  font-family: 'Amatic SC', cursive;
-  font-size: 24px;
-}
-=======
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 
 #fh5co-hero {
   min-height: 500px;
@@ -522,22 +457,12 @@ padding: 34px 30px;
 }
 
 /* ==========================================
-<<<<<<< HEAD
 
 PROJECT SECTION
 
-========================================== */
-=======
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 
 PROJECT SECTION
 
-<<<<<<< HEAD
-=======
-========================================== */
-
-
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 .project-row {
  padding: 20px;
  margin: auto;
@@ -546,7 +471,6 @@ PROJECT SECTION
 
 .project-row:hover {
   box-shadow: 8px 8px 4px #F1F1F1;
-<<<<<<< HEAD
 }
 
 .project-desc-col {
@@ -557,8 +481,6 @@ PROJECT SECTION
 .project-img {
   width: 100%;
   height: 100%;
-=======
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 }
 
 .project-desc-col {
@@ -630,18 +552,11 @@ SKILLS SECTION
 
 
 /* slide styling*/
-<<<<<<< HEAD
-.first-slide h1 { 
-  font-family: 'Josefin Sans', sans-serif;
-  color: white !important;
-  text-shadow: 2px 2px 4px #000000;
-=======
 
 .first-slide h1 span { 
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   text-shadow: 3px 3px 5px #000000;
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 }
 
 .slideone-span {
@@ -650,28 +565,16 @@ SKILLS SECTION
   font-size: 40px;
 }
 
-<<<<<<< HEAD
-.second-slide h1 {
-  font-family: 'Josefin Sans', sans-serif;
-  color: white !important;
-  text-shadow: 2px 2px 4px #000000;
-=======
  h1 span {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   text-shadow: 3px 3px 5px #000000;
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 }
 
 .third-slide h1 {
   font-family: 'Josefin Sans', sans-serif;
-<<<<<<< HEAD
-  color: white !important;
-  text-shadow: 2px 2px 4px #000000;
-=======
   color: white;
   text-shadow: 3px 3px 5px #000000;
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 }
 
 
@@ -815,239 +718,6 @@ SKILLS SECTION
   color: gray;
 }
 
-<<<<<<< HEAD
-.fh5co-blog {
-  width: 100%;
-  float: left;
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-blog {
-    width: 100%;
-  }
-}
-.fh5co-blog .blog-bg {
-  display: block;
-  width: 100%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 270px;
-}
-@media screen and (max-width: 768px) {
-  .fh5co-blog .blog-bg {
-    height: 300px;
-  }
-}
-.fh5co-blog .blog-text {
-  position: relative;
-  width: 100%;
-  padding: 30px;
-  float: left;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.fh5co-blog .blog-text span {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-size: 14px !important;
-  color: rgba(0, 0, 0, 0.3);
-}
-.fh5co-blog .blog-text .stuff {
-  margin: 0;
-  padding: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
-  padding-top: 20px;
-}
-.fh5co-blog .blog-text .stuff li {
-  list-style: none;
-  display: inline-block;
-  margin-left: 10px;
-}
-.fh5co-blog .blog-text .stuff li:first-child {
-  margin-left: 0;
-}
-.fh5co-blog .blog-text .stuff li:last-child {
-  float: right;
-}
-.fh5co-blog .blog-text .stuff li:last-child i {
-  padding-right: 0;
-  padding-left: 10px;
-}
-.fh5co-blog .blog-text .stuff li i {
-  font-size: 14px;
-  padding-right: 5px;
-}
-.fh5co-blog .blog-text h3 {
-  font-size: 13px;
-  margin-bottom: 20px;
-  line-height: 1.5;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  font-family: "Josefin Sans", sans-serif;
-}
-.fh5co-blog .blog-text h3 a {
-  color: black;
-}
-
-.blog-flex {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  width: 100%;
-  padding: 0 !important;
-}
-.blog-flex .featured-blog, .blog-flex .blog-entry {
-  width: 50%;
-}
-@media screen and (max-width: 768px) {
-  .blog-flex .featured-blog, .blog-flex .blog-entry {
-    width: 100%;
-  }
-}
-.blog-flex .featured-blog {
-  padding: 2em;
-  width: 50%;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-}
-@media screen and (max-width: 768px) {
-  .blog-flex .featured-blog {
-    width: 100%;
-  }
-}
-.blog-flex .featured-blog:before {
-  position: absolute;
-  top: 15px;
-  bottom: 15px;
-  left: 15px;
-  right: 15px;
-  content: '';
-  border: 1px solid rgba(255, 255, 255, 0.4);
-}
-.blog-flex .featured-blog .desc-t {
-  display: table;
-  min-height: 430px;
-  padding: 2em;
-  z-index: 1;
-}
-.blog-flex .featured-blog .desc-t .desc-tc {
-  display: table-cell;
-  vertical-align: middle;
-  height: inherit;
-  z-index: 1;
-}
-.blog-flex .featured-blog .desc-t .featured-head {
-  display: block;
-  margin-bottom: 30px;
-  font-size: 18px !important;
-  color: rgba(255, 255, 255, 0.8);
-}
-.blog-flex .featured-blog .desc-t h3 {
-  font-weight: 700;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
-  margin-bottom: 10px;
-  line-height: 40px;
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 768px) {
-  .blog-flex .featured-blog .desc-t h3 {
-    font-size: 24px;
-  }
-}
-.blog-flex .featured-blog .desc-t h3 a {
-  color: #fff;
-}
-.blog-flex .featured-blog .desc-t p {
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.8);
-}
-.blog-flex .featured-blog .desc-t .read-button {
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: "Josefin Sans", sans-serif;
-  color: white;
-  border: 1px solid red;
-  padding: 10px 15px;
-  border: 1px solid white;
-  color: #fff;
-}
-.blog-flex .blog-entry {
-  padding: 4em;
-}
-@media screen and (max-width: 768px) {
-  .blog-flex .blog-entry {
-    padding: 4em 1em;
-  }
-}
-.blog-flex .blog-entry h2 {
-  display: block;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: 700;
-  margin-bottom: 40px;
-  color: rgba(0, 0, 0, 0.4);
-}
-.blog-flex .blog-entry .blog-post {
-  margin-bottom: 2.5em;
-  display: block;
-  position: relative;
-}
-.blog-flex .blog-entry .blog-post .desc {
-  padding-left: 110px;
-}
-.blog-flex .blog-entry .blog-post .desc h3 {
-  font-weight: 300;
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
-  line-height: 30px;
-  margin-bottom: 10px;
-}
-.blog-flex .blog-entry .blog-post .desc span {
-  font-size: 13px;
-  color: #b3b3b3;
-}
-.blog-flex .blog-entry .blog-post .img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 90px;
-  height: 90px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  border: 4px solid #fff;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
-=======
->>>>>>> 1012b1e... reset HEAD~24 and added files back master branch
 
 /*  contact section  */
 .contact-info {
