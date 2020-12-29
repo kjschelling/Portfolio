@@ -552,7 +552,7 @@ SKILLS SECTION
   text-shadow: 3px 3px 5px #000000;
  }
 
-.third-slide h1 {
+.third-slide h1 span {
   font-family: 'Josefin Sans', sans-serif;
   color: white;
   text-shadow: 3px 3px 5px #000000;
