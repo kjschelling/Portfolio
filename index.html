@@ -15,7 +15,7 @@
 	//////////////////////////////////////////////////////
 
 	//////////////////////////////////////////////////////
-	 -->
+	-->
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
 
@@ -46,7 +46,7 @@
 
 <body>
 
-	<!-- nav bar section -->
+	<!-- START OF NAV SECTION -->
 
 	<div id="page">
 		<nav class="fh5co-nav" role="navigation">
@@ -77,7 +77,6 @@
 									</ul>
 								</li>
 								<li><a href="#skills-section">Skills</a></li>
-								<!-- <li><a href="#">About</a></li> -->
 								<li><a href="#contact-section">Contact</a></li>
 							</ul>
 						</div>
@@ -86,15 +85,16 @@
 			</div>
 		</nav>
 
-		<!-- end of nav bar section  -->
+		<!-- END OF NAV SECTION  -->
 
-		<!-- slider section  -->
+		<!-- START OF FLEX SLIDER SECOND  -->
 		<div class="container-wrap slider-container">
 			<div id="fh5co-hero">
 				<div class="flexslider">
 					<ul class="slides">
 
-						<!-- First Slide of Flex Slider-->
+						<!-- FLEX SLIDER - 1ST SLIDE-->
+
 						<!-- have background image inline, isn't working in style.css -->
 						<li class="first-slide" style ="background-image: url(images/martin-adams-LA.jpg);">
 							<div class="container-fluid">	
@@ -108,33 +108,29 @@
 									</div>
 								</video>
 								</div>
-								
-								</div>
+							</div>
 						</li>
 						
+						<!-- END OF FIRST SLIDE -->
 
-						
-
-						<!-- end of first slide -->
-
-						<!-- Second Slide of Flex Slider -->
+						<!-- FLEX SLIDER - 2ND SLIDE -->
 
 						<li class="second-slide" style ="background-image: url(images/laptop-0.jpg);">
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-md-6 col-md-offset-3 col-md-push-3 slider-text">
 										<div class="slider-text-inner inner-text-div">
-											<h1><span>Services include: Squarespace, Wix, Wordpress, SEO optimization, theme customization &  full stack development.</span></h1>
+											<h1><span>Services include: Squarespace, Wix, Wordpress, SEO optimization, theme customization & full stack development.</span></h1>
 										</div>
 									</div>
 								</div>
 							</div>
 						</li>
 
-						<!-- End of second slide -->
+						<!-- END OF SECOND SLIDE -->
 
 
-						<!-- Third Slide of Flex Slider -->
+						<!-- FLEX SLIDER - 3RD SLIDE -->
 
 						<li class="third-slide" style ="background-image: url(images/skincare-products-0.jpg);">
 							<div class="container-fluid">
@@ -150,17 +146,19 @@
 								</div>
 							</div>
 						</li>
-						<!-- End of third slide -->
+						<!-- END OF THIRD SLIDE -->
 					</ul>
 				</div>
 			</div>
 		</div>
 	
 
-		<!-- end of slider section  -->
+		<!-- SLIDER SECTION END  -->
 
 
-		<!-- start of project section -->
+		<!-- START OF PROJECT SECTION -->
+
+		<!-- DOT DIGITAL PHOTO - 1ST PROJECT -->
 		
 		<div class="container-wrap" class="project-container">
 			<div class="project-row row animate-box">
@@ -180,11 +178,14 @@
 						<li>Chic photography site redesigned using clients Wix Premium account</li>
 						<li>Working with client in person</li>
 					</ul>
+					<button type="button" class="btn btn-outline-secondary btn-1"
+					onclick="window.open('https://www.dotdigitalphoto.com/', '_blank');" rel="noopener noreferrer"><i class='icon-enter'></i> Live Site</button>
 				</div>
 			</div>
 		</div>
-		</a>
+		<!-- END OF FIRST PROJECT -->
 		
+		<!-- PAMELA CAPONE - 2ND PROJECT -->
 		
 		<div class="container-wrap" class="project-container">
 			<div class="project-row row animate-box">
@@ -202,16 +203,21 @@
 						<li>SEO Optmization</li>
 						<li>Plugin management</li>
 					</ul>
+					<button type="button" class="btn btn-outline-secondary btn-1"
+					onclick="window.open('https://pamelacapone.com', '_blank');" rel="noopener noreferrer"><i class='icon-enter'></i> Live Site</button>
 				</div>
 			</div>
 		</div>
-	
+
+		<!-- END OF SECOND PROJECT -->
+
+		<!-- REACT BARTENDER - 3RD PROJECT -->
 	
 		<div class="container-wrap" class="project-container">
 			<div class="project-row row animate-box">
 				<div class="project-img-col col-md-6">
 					<a href="https://boiling-tor-87963.herokuapp.com/cocktails" 
-		style="display:block;">
+					style="display:block;">
 					<img class="project-img"
 						src="images/imac/imaccocktails.jpg"
 						alt="macbook"></a>
@@ -224,9 +230,17 @@
 						<li>Fetches to a cocktail API displaying 10 Random Cocktails & a button to generate a single random cocktail</li>
 						<li>Final project for General Assembly's React Course</li>
 					</ul>
+					<button type="button" class="btn btn-outline-secondary btn-1"
+					onclick="window.open('https://boiling-tor-87963.herokuapp.com/cocktails', '_blank');" rel="noopener noreferrer"><i class='icon-enter'></i> Live Site</button>
+					<button type="button" class="btn btn-outline-secondary btn-2"
+					onclick="window.open('https://github.com/kjschelling/react-bartender', '_blank');" rel="noopener noreferrer"><i class='icon-github'></i> Github Repo</button>
 				</div>
 			</div>
 		</div>
+
+		<!-- END OF THIRD PROJECT -->
+
+		<!-- BEAUTY INGREDIENT TRACKER - 4TH PROJECT -->
 	
 		<div class="container-wrap" class="project-container">
 			<div class="project-row row animate-box">
@@ -245,9 +259,17 @@
 						<li>Signup, signin, signout & change password capabilites</li>
 						<li>User can signin and add ingredients with relevent links & notes.</li>
 					</ul>
+					<button type="button" class="btn btn-outline-secondary btn-1" 
+					onclick="window.open('https://kjschelling.github.io/kjschelling-capstone/', '_blank');" rel="noopener noreferrer"><i class='icon-enter'></i> Live Site</button>
+					<button type="button" class="btn btn-outline-secondary btn-2" 
+					onclick="window.open('https://github.com/kjschelling/kjschelling-capstone', '_blank');" rel="noopener noreferrer"><i class='icon-github'></i> Github Repo</button>
 				</div>
 			</div>
 		</div>
+
+		<!-- END OF FOURTH PROJECT -->
+
+		<!-- MODEL AGENCY APP - 5th PROJECT -->
 
 		<div class="container-wrap" class="project-container">
 			<div class="project-row row animate-box">
@@ -266,14 +288,21 @@
 						<li>HTML, CSS, Sass, Javascript jQuery, Ajax,
 						Bootstrap, Ruby, Ruby on Rails</li>
 					</ul>
+					<button type="button" class="btn btn-outline-secondary btn-1" 
+					onclick="window.open('https://kjschelling.github.io/FullStackProject/', '_blank');" rel="noopener noreferrer"><i class='icon-enter'></i> Live Site</button>
+					<button type="button" class="btn btn-outline-secondary btn-2" 
+					onclick="window.open('https://github.com/kjschelling/FullStackProject', '_blank');" rel="noopener noreferrer"><i class='icon-github'></i> Github Repo</button>
+					
 				</div>
 			</div>
 		</div>
 
-		<!-- end of project section  -->
+		<!-- END OF FIFTH SLIDE -->
+
+		<!-- END OF PROJECT SECTION  -->
 
 
-		<!-- start of skills section -->
+		<!-- START OF SKILLS SECTION -->
 
 		<div class="container-wrap" id="fh5co-services" class="skills-container">
 
@@ -293,8 +322,8 @@
 							<h3>HTML5</h3>
 						</div>
 					</div>
-
 				</div>
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="skills">
 						<span class="icon">
@@ -302,10 +331,10 @@
 						</span>
 						<div class="desc">
 							<h3>CSS3</h3>
-
 						</div>
 					</div>
 				</div>
+
 				<div class="col-md-4 text-center animate-box">
 					<div class="skills">
 						<span class="icon">
@@ -313,10 +342,10 @@
 						</span>
 						<div class="desc">
 							<h3>ES6</h3>
-
 						</div>
 					</div>
 				</div>
+
 			</div>
 			<div class="row skills-row">
 				<div class="col-md-4 text-center animate-box">
@@ -387,7 +416,7 @@
 				</div>
 			</div>
 			
-
+				<!-- CERTIFICATIONS -->
 
 			<div class="row animate-box">
 				<div class="col-xs-12 text-center fh5co-heading">
@@ -401,10 +430,11 @@
 			</div>
 		</div>
 
-		<!-- end of skills section -->
+		<!-- END OF SKILLS SECTION -->
 
 
-		<!-- contact section -->
+		<!-- START OF CONTACT SECTION  -->
+
 		<div class='container-wrap contact-container'>
 
 			<div class="row animate-box" >
@@ -425,28 +455,29 @@
 						Click to download resume.
 						</br>
 						<form method="get"
-							action="https://drive.google.com/file/d/19yv2Zr0n6uiONhFyO32UsxL_jCqu-ydX/view?usp=sharing"
+							action="https://drive.google.com/file/d/1im5MENfUOArg2aGh2G1wteL0Nz4SdKY_/view?usp=sharing"
 							target="_blank">
-							<button type="submit" class="resume-btn">Download!</button>
+							<button type="submit" class="btn btn-outline-secondary btn-1"><i class='icon-download3'></i> Download!</button>
 						</form>
 				</div>
 
 				<div class="col-md-12 text-center">
-					<p>
-						<small class="block"> Made with <i class="icon-heart2"> by </i> <span
-								id=signKJ> The KJ Code</span></small>
-					</p>
+					
 					<p>Connect with me!
 						<ul class="fh5co-social-icons">
 							<li><a href="https://github.com/kjschelling"><i class="icon-github"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/kj-schelling/"><i class="icon-linkedin"></i></a></li>
 						</ul>
 					</p>
+					<p>
+						<small class="block"> Made with <i class="icon-heart2"> by </i> <span
+								id=signKJ> The KJ Code</span></small>
+					</p>
 				</div>
 			</div>
 		</div>
 
-		<!-- end contact section -->
+		<!-- END OF CONTACT SECTION -->
 	</div>
 
 	<div class="gototop js-top">
